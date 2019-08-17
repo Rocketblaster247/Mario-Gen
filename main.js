@@ -9,4 +9,4 @@ net.train(dataset, {
       momentum: 0.1,        // scales with next layer's change value --> number between 0 and 1
       
 });
-net.run("");
+console.log(net.run("-"));
